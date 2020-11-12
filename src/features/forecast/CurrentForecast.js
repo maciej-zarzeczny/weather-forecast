@@ -37,6 +37,10 @@ const Value = styled(Label)`
   color: ${(props) => props.theme.colors.dark};
   font-weight: bold;
   text-transform: none;
+
+  @media ${Devices.mobile} {
+    margin-bottom: 1rem;
+  }
 `;
 
 export const CurrentForecast = ({ data }) => {
