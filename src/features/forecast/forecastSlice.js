@@ -9,7 +9,7 @@ const initialState = {
 
 export const getForecast = createAsyncThunk("forecast/getForecast", async (city) => {
   const response = await fetch(
-    `http://api.weatherapi.com/v1/forecast.json?key=a249f2d0f2f84a3bb26104056201011&q=${city}&days=3`
+    `http://api.weatherapi.com/v1/forecast.json?key=${process.env.REACT_APP_API_KEY}&q=${city}&days=3`
   );
   const result = await response.json();
 
@@ -18,7 +18,7 @@ export const getForecast = createAsyncThunk("forecast/getForecast", async (city)
 
 export const getCitySuggestions = createAsyncThunk("forecast/getCitySuggestions", async (query) => {
   const response = await fetch(
-    `http://api.weatherapi.com/v1/search.json?key=a249f2d0f2f84a3bb26104056201011&q=${query}`
+    `http://api.weatherapi.com/v1/search.json?key=${process.env.REACT_APP_API_KEY}&q=${query}`
   );
   const result = await response.json();
 
