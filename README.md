@@ -1,8 +1,8 @@
 # Weather forecast app - Decathlon recruitment task
 
-[Live demo](https://maciekz1996.github.io/weather-forecast)\
+[Live demo](https://maciekz1996.github.io/weather-forecast)
 
-**This project was created using:**\
+**This project was created using:**
 - React
 - Redux
 - Styled Components
@@ -10,8 +10,7 @@
 - React Spinners
 
 <br/>
-<br/>
-This application uses free [WeatherAPI](https://www.weatherapi.com/)\
+This application uses free [WeatherAPI](https://www.weatherapi.com/)
 
 ## Available Scripts
 
