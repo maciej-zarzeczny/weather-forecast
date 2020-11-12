@@ -2,11 +2,17 @@ import React from "react";
 import styled from "styled-components";
 import PropTypes from "prop-types";
 
+import { Devices } from "../../styles/Devices";
+
 const DataContainer = styled.section`
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   margin: 2rem 0;
+
+  @media ${Devices.mobile} {
+    display: block;
+  }
 `;
 
 const Icon = styled.img`

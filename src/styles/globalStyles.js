@@ -20,8 +20,7 @@ export const GlobalStyle = createGlobalStyle`
       list-style: none;
     }
     table,th,td {
-      border-collapse: collapse;
-      padding: 2rem;
+      border-collapse: collapse;      
       text-align: left;
     }
 `;
@@ -29,7 +28,7 @@ export const GlobalStyle = createGlobalStyle`
 export const Container = styled.div`
   max-width: 1000px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 2rem;
 `;
 
 export const Title = styled.h1`
