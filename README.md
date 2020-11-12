@@ -9,8 +9,7 @@
 - Prop Types
 - React Spinners
 
-<br/>
-This application uses free [Weather API](https://www.weatherapi.com/)
+This application uses free [Weather API](https://www.weatherapi.com)
 
 ## Available Scripts
 
